@@ -9,8 +9,8 @@ func replaceToSymbols (string: String) -> String {
     let newString2 = newString1.replacingOccurrences(of: "s", with: "$", options: .literal, range: nil)
     let newString3 = newString2.replacingOccurrences(of: "a", with: "@", options: .literal, range: nil)
     let newString4 = newString3.replacingOccurrences(of: "A", with: "@", options: .literal, range: nil)
-    let newString5 = newString5.replacingOccurrences(of: "i", with: "1", options: .literal, range: nil)
-    let newString6 = newString6.replacingOccurrences(of: "o", with: "0", options: .literal, range: nil)
+    let newString5 = newString4.replacingOccurrences(of: "i", with: "1", options: .literal, range: nil)
+    let newString6 = newString5.replacingOccurrences(of: "o", with: "0", options: .literal, range: nil)
     let newString7 = newString6.replacingOccurrences(of: "t", with: "+", options: .literal, range: nil)
     // Вертаємо значення останньої константи
     return newString7 
